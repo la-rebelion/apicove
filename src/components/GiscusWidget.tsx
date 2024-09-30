@@ -28,9 +28,9 @@ export default function GiscusWidget( ): JSX.Element {
         script.src = 'https://giscus.app/client.js';
         script.async = true;
         script.setAttribute('data-repo', "la-rebelion/apicove");
-        script.setAttribute('data-repo-id', "R_kgDOL4igkw");
+        script.setAttribute('data-repo-id', "R_kgDOM5QsIQ");
         script.setAttribute('data-category', "Conversations");
-        script.setAttribute('data-category-id', "DIC_kwDOL4igk84CfT-Z");
+        script.setAttribute('data-category-id', "DIC_kwDOM5QsIc4Ci7kM");
         script.setAttribute('data-mapping', "title");
         script.setAttribute('data-strict', "0");
         script.setAttribute('data-reactions-enabled', "1");

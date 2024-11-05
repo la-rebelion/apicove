@@ -1,7 +1,11 @@
-import {themes as prismThemes} from 'prism-react-renderer';
-import type {Config} from '@docusaurus/types';
+import { themes as prismThemes } from 'prism-react-renderer';
+import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
+// Hubspot account id
+const hubspot = {
+  accountId: '21339207',
+};
 const config: Config = {
   title: 'APICove',
   tagline: 'APIs made easy',
@@ -71,12 +75,54 @@ const config: Config = {
           ignorePatterns: ['/tags/**'],
           filename: 'sitemap.xml',
           createSitemapItems: async (params) => {
-            const {defaultCreateSitemapItems, ...rest} = params;
+            const { defaultCreateSitemapItems, ...rest } = params;
             const items = await defaultCreateSitemapItems(rest);
             return items.filter((item) => !item.url.includes('/page/'));
           },
         },
       } satisfies Preset.Options,
+    ],
+  ],
+  plugins: [
+    [
+      // https://docusaurus.io/docs/blog#multiple-blogs
+      '@docusaurus/plugin-content-blog',
+      {
+        id: 'gyat',
+        routeBasePath: 'gyat',
+        path: './gyat',
+      },
+    ],
+    [
+      // https://docusaurus.io/docs/blog#multiple-blogs
+      '@docusaurus/plugin-content-blog',
+      {
+        id: 'hapi',
+        routeBasePath: 'hapi',
+        path: './hapi',
+      }
+    ],
+    // https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-client-redirects
+    // This plugin is always inactive in development and only active in production because it works on the build output
+    ['@docusaurus/plugin-client-redirects',
+      {
+        redirects: [
+          // /docs/oldDoc -> /docs/newDoc
+          // {
+          //   to: '/docs/newDoc',
+          //   from: '/docs/oldDoc',
+          // },
+          // Redirect from multiple old paths to the new path
+          {
+            to: '/gyat',
+            from: ['/gyat-go-through-your-apis-tool'],
+          },
+          {
+            to: '/hapi',
+            from: ['/hapi-headless-api'],
+          },
+        ],
+      },
     ],
   ],
 
@@ -95,9 +141,10 @@ const config: Config = {
           position: 'left',
           label: 'Docs',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
-        {to: 'https://tools.apicove.com', label: 'Tools', position: 'left', target: '_blank'},
-        {to: '/go-through-your-apis-tool', label: 'GYAT', position: 'left'},
+        { to: '/blog', label: 'Blog', position: 'left' },
+        { to: 'https://tools.apicove.com', label: 'Online Tools', position: 'left', target: '_blank' },
+        { to: '/gyat', label: 'GYAT', position: 'left' },
+        { to: '/hapi', label: 'HAPI', position: 'left' },
         {
           href: 'https://go.rebelion.la/sponsors',
           label: 'Sponsor',
@@ -203,6 +250,18 @@ const config: Config = {
     {
       src: 'https://js.hsforms.net/forms/embed/v2.js',
       async: true,
+    },
+  ],
+  headTags: [
+    {
+      tagName: 'script',
+      attributes: {
+        async: "true",
+        defer: "true",
+        type: 'text/javascript',
+        id: 'hs-script-loader',
+        src: `//js.hs-scripts.com/${hubspot.accountId}.js`,
+      },
     },
   ],
 };

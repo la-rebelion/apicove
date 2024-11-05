@@ -89,7 +89,7 @@ const config: Config = {
       '@docusaurus/plugin-content-blog',
       {
         id: 'gyat',
-        routeBasePath: 'gyat',
+        routeBasePath: '/gyat/',
         path: './gyat',
       },
     ],
@@ -98,7 +98,7 @@ const config: Config = {
       '@docusaurus/plugin-content-blog',
       {
         id: 'hapi',
-        routeBasePath: 'hapi',
+        routeBasePath: '/hapi/',
         path: './hapi',
       }
     ],

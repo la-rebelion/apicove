@@ -3,7 +3,7 @@
   "position": 2,
   "link": {
     "type": "generated-index",
-    "slug": "/gyat/",
+    "slug": "/docs/gyat/",
     "description": "Run your Swagger API as a CLI, Go-through Your API Tool, GYAT"
   }
 }

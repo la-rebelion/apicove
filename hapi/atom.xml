@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://apicove.com/hapi/</id>
+    <title>APICove Blog</title>
+    <updated>2024-11-05T00:22:17.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://apicove.com/hapi/"/>
+    <subtitle>APICove Blog</subtitle>
+    <icon>https://apicove.com/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[features]]></title>
+        <id>https://apicove.com/hapi/features</id>
+        <link href="https://apicove.com/hapi/features"/>
+        <updated>2024-11-05T00:22:17.000Z</updated>
+        <summary type="html"><![CDATA[WIP]]></summary>
+        <content type="html"><![CDATA[<p>WIP</p>]]></content>
+    </entry>
+</feed>

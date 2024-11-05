@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>APICove Blog</title>
+        <link>https://apicove.com/gyat/</link>
+        <description>APICove Blog</description>
+        <lastBuildDate>Mon, 30 Sep 2024 17:08:35 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[features]]></title>
+            <link>https://apicove.com/gyat/features</link>
+            <guid>https://apicove.com/gyat/features</guid>
+            <pubDate>Mon, 30 Sep 2024 17:08:35 GMT</pubDate>
+        </item>
+    </channel>
+</rss>

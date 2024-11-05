@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkapicove=self.webpackChunkapicove||[]).push([[4012],{91672:a=>{a.exports=JSON.parse('{"blogBasePath":"/hapi/","blogTitle":"Blog","authorsListPath":"/hapi/authors"}')}}]);

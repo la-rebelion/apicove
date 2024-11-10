@@ -63,7 +63,7 @@ const config: Config = {
           customCss: './src/css/custom.css',
         },
         gtag: {
-          trackingID: 'G-459667760',
+          trackingID: 'G-R63DV8HNZS',
         },
         googleTagManager: {
           containerId: 'GTM-PCV79Q6Z',

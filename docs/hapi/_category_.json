@@ -1,9 +1,0 @@
-{
-  "label": "HAPI",
-  "position": 2,
-  "link": {
-    "type": "generated-index",
-    "slug": "/docs/hapi/",
-    "description": "Headless API, HAPI"
-  }
-}

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkapicove=self.webpackChunkapicove||[]).push([[7802],{29710:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/gyat/","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

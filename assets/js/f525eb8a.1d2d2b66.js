@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkapicove=self.webpackChunkapicove||[]).push([[8787],{39805:a=>{a.exports=JSON.parse('{"tag":{"label":"api","permalink":"/blog/tags/api","allTagsPath":"/blog/tags","count":1,"unlisted":false},"listMetadata":{"permalink":"/blog/tags/api","page":1,"postsPerPage":6,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

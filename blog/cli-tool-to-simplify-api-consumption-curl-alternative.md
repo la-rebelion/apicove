@@ -4,7 +4,7 @@ description: A CLI tool that makes API consumption fast and intuitive. Designed 
 authors:
 - adrian
 image: /img/GYAT-demo.gif
-tags: ["api", cli, curl, swagger, devops, programming]
+tags: [api-first, swagger, devops]
 keywords:
   - no-code API consumption
   - simplify API interaction
@@ -43,7 +43,9 @@ That shift changed the way we think about interacting with Kubernetes. What if w
 
 ## Enter GYAT: Your New `kubectl` for APIs
 
-![GYAT CLI Demo](/img/GYAT-demo.gif)
+<center>
+<img src="/img/GYAT-demo.gif" alt="GYAT CLI Demo" width="600px"></img>
+</center>
 
 GYAT is the CLI tool that steps into the ring, not to replace `curl` (which still has its place), but to give developers, testers, and systems integrators a more natural, streamlined experience with APIs.  
 GYAT reads Swagger specs and gives you simple, intuitive commands like `get`, `apply`, `delete`, and more. Forget spending time wrangling with flags or parsing API docs—GYAT does the heavy lifting for you. You can run commands like:

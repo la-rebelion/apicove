@@ -3,9 +3,13 @@ title: "You're Using Swagger Wrong: How to Master API Design"
 description: "Avoid common API design mistakes with Swagger, explore best practices for defining schemas, and discover how using it correctly can enhance the quality of APIs."
 image: /img/confused-developer-tangled-web-api-concepts.webp
 authors: [adrian]
+keywords: [api design, swagger, openapi, json schemas, response codes, parameters, authentication]
+tags: [api-first, swagger, openapi]
 ---
 
-API design is more than just a checkbox on your development to-do list. Yet, too many teams treat tools like Swagger as mere documentation generators rather than powerful assets for improving API quality. From missing JSON schemas to neglecting proper response codes, sloppy API design leads to inconsistent integrations and frustrated users. If you're using Swagger just to map out your endpoints, you're doing it wrong. In this post, we'll dive into common mistakes and show you how to leverage Swagger for a robust, foolproof API design process.
+API design is more than just a checkbox on your development to-do list. Yet, too many teams treat tools like Swagger as mere documentation generators rather than powerful assets for improving API quality. From missing JSON schemas to neglecting proper response codes, sloppy API design leads to inconsistent integrations and frustrated users. If you're using Swagger just to map out your endpoints, you're doing it wrong. 
+
+In this post, we'll dive into common mistakes and show you how to leverage Swagger for a robust, foolproof API design process.
 
 <!-- truncate -->
 ## Here's the Tough Truth: You're Misusing Swagger

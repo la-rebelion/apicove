@@ -115,7 +115,7 @@ const config: Config = {
           // Redirect from multiple old paths to the new path
           {
             to: '/gyat',
-            from: ['/gyat-go-through-your-apis-tool'],
+            from: ['/gyat-go-through-your-apis-tool', '/go-through-your-apis-tool'],
           },
           {
             to: '/hapi',

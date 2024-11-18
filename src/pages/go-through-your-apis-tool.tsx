@@ -115,7 +115,7 @@ export default function GyatPage() {
       description="Download tools for better Developer Experience">
       <main>
         <DownloadBlock />
-        <TwoSidedLayout reversed image='img/GYAT-demo.gif'>
+        <TwoSidedLayout reversed image='/img/GYAT-demo.gif'>
           <Chip size="lg" variant="outlined" color="neutral">
             From Swagger to CLI with No-Code!
           </Chip>

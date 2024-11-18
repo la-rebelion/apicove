@@ -8,6 +8,7 @@
     "type": "generated-index",
     "description": "Learn about the most important APICove concepts!",
     "title": "GYAT's Getting Started",
+    "slug": "/getting-started/",
     "keywords": ["guides"],
     "image": "https://cdn.statically.io/img/cdn.apicove.com/img/apicove-logox180.png"
   }

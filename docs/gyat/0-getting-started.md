@@ -1,5 +1,7 @@
 ---
 title: Getting Started with GYAT
+description: GYAT is a CLI tool that simplifies API consumption. Designed to replace curl, it reads Swagger specs and simplifies interactions with commands kubectl-like.
+slug: /docs/gyat
 ---
 
 To get started with `GYAT`, you'll need two simple things:

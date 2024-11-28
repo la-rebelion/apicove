@@ -42,6 +42,18 @@ openapi:
   label: OpenAPI
   description: OpenAPI is a specification for building APIs. It defines a standard, language-agnostic interface to RESTful APIs which allows both humans and computers to discover and understand the capabilities of a service without access to source code or documentation.
 
-devoops:
+devops:
   label: DevOps
   description: DevOps is a set of practices that combines software development (Dev) and IT operations (Ops). It aims to shorten the systems development life cycle and provide continuous delivery with high software quality.
+
+microservices:
+  label: Microservices
+  description: Microservices is an architectural style that structures an application as a collection of loosely coupled services, which implement business capabilities.
+
+serverless:
+  label: Serverless
+  description: Serverless is a cloud computing execution model where the cloud provider dynamically manages the allocation and provisioning of servers.
+
+api-development:
+  label: API Development
+  description: API Development is the process of creating APIs, including designing the API interface, implementing the API logic, and testing the API.
